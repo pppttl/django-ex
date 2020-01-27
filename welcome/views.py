@@ -14,6 +14,7 @@ def index(request):
 
     return render(request, 'welcome/index.html', {
         'hostname': hostname,
+        'custom.title': 'Welcome MVMI to OpenShift',
         'database': database.info(),
         'count': PageView.objects.count()
     })
