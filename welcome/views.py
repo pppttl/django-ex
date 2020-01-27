@@ -25,4 +25,4 @@ def health(request):
 
 
 def hello(request):
-    return HttpResponse('Hello MVMI')
+    return HttpResponse('Hello World!')
